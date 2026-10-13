@@ -1,0 +1,2746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP por Informe de Escaneo Checkmarx</title>
+<link
+	href="2026-10-11-ZAP-Report-2/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2026-10-11-ZAP-Report-2/themes/original/main.css" rel="stylesheet">
+<link
+	href="2026-10-11-ZAP-Report-2/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP por Informe de Escaneo Checkmarx</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2026-10-11-ZAP-Report-2/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on dom 11 oct 2026, at 10:19:31</span>
+		</p>
+		<p>ZAP Versión: 2.17.0</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About This Report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report Parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert Counts by Risk and Confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert Counts by Site and Risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert Counts by Alert Type</a></li>
+							<li><a
+								href="#insights">Insights</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							 
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-2-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Medio</span>, <span>Confidence</span>=<span
+									class="confidence-level">Alta</span> <span>(4)</span></a></li>
+							
+							
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Media</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Media</span> <span>(3)</span></a></li>
+							
+							
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert Types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About This Report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report Parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">http://localhost:5298</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">Alto</span>, <span class="risk-level">Medio</span>, <span class="risk-level">Bajo</span>, <span class="risk-level">Informativo</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">Confirmado por Usuario</span>, <span class="confidence-level">Alta</span>, <span class="confidence-level">Media</span>, <span class="confidence-level">Baja</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">Confirmado por Usuario</span>, <span class="confidence-level">Alta</span>, <span class="confidence-level">Media</span>, <span class="confidence-level">Baja</span>, <span class="confidence-level">Falso positivo</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert Counts by Risk and Confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">Confirmado por Usuario</th>
+							<th scope="col">Alta</th>
+							<th scope="col">Media</th>
+							<th scope="col">Baja</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">Alto</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0,0 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medio</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(50,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(50,0 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Bajo</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(12,5 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informativo</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(37,5 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(37,5 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(50,0 %)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(50,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>8</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert Counts by Site and Risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>Alto</span><br>  <span
+									class="additional-info-percentages">(= Alto)</span>  
+							</th>
+							<th scope="col">
+								<span>Medio</span><br>   <span
+									class="additional-info-percentages">(&gt;= Medio)</span> 
+							</th>
+							<th scope="col">
+								<span>Bajo</span><br>   <span
+									class="additional-info-percentages">(&gt;= Bajo)</span> 
+							</th>
+							<th scope="col">
+								<span>Informativo</span><br>   <span
+									class="additional-info-percentages">(&gt;= Informativo)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="1">Site</th>
+							<th scope="row">http://localhost:5298</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(4)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(5)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(8)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert Counts by Alert Type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">CSP: Directiva Wildcard</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(50,0 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">CSP: Failure to Define Directive with No Fallback</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(25,0 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">CSP: script-src unsafe-inline</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(50,0 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">CSP: style-src unsafe-inline</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(50,0 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-4">Falta encabezado X-Content-Type-Options</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(62,5 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-5">Aplicación Web Moderna</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(25,0 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-6">Divulgación de información - Comentarios sospechosos</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-7">Respuesta de Gestión de Sesión Identificada</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(25,0 %)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>8</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+			
+			<section
+				id="insights">
+				<h3 class="left-header">Insights</h3>
+				
+				<table class="insights-table">
+						<caption>
+						<p>This table shows information that is likely to be very relevant to you, but which is not related to vulnerabilities, or potentially even related to the application in question.</p>
+					</caption>
+					<thead>
+					<tr>
+						<th scope="col">Level</th>
+						<th scope="col">Razón</th>
+						<th scope="col">Site</th>
+						<th scope="col">Descripción</th>
+						<th scope="col">Statistic</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+						<td class="risk-1">
+							<div>Bajo</div>
+						</td>
+						<td>
+							<div>Advertencia</div>
+						</td>
+						<td>
+							<div></div>
+						</td>
+						<td>
+							<div>ZAP errors logged - see the zap.log file for details</div>
+						</td>
+						<td align="center">
+							<div>4   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-1">
+							<div>Bajo</div>
+						</td>
+						<td>
+							<div>Advertencia</div>
+						</td>
+						<td>
+							<div></div>
+						</td>
+						<td>
+							<div>ZAP warnings logged - see the zap.log file for details</div>
+						</td>
+						<td align="center">
+							<div>5   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>32 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 4xx</div>
+						</td>
+						<td align="center">
+							<div>67 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type image/png</div>
+						</td>
+						<td align="center">
+							<div>10 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/css</div>
+						</td>
+						<td align="center">
+							<div>30 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/html</div>
+						</td>
+						<td align="center">
+							<div>20 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/javascript</div>
+						</td>
+						<td align="center">
+							<div>20 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>10   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://localhost:5298</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>3 %</div>
+						</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				
+				
+				<li id="alerts--risk-2-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medio</span>, <span>Confidence</span>=<span
+							class="confidence-level">Alta</span> <span>(4)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:5298</span> <span>(4)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">CSP: Directiva Wildcard</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:5298/cliente</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/2021/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/2025/A02_2025-Security_Misconfiguration/">OWASP_2025_A02</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Content Security Policy (CSP) es una capa de seguridad añadida que ayuda a detectar y mitigar ciertos tipos de ataques. Incluyendo (pero no limitado a) Cross Site Scripting (XSS), y ataques de inyección de datos. Estos ataques se utilizan, para todo, desde el robo de datos a la desfiguración de sitios o la distribución de malware. CSP proporciona un conjunto de cabeceras HTTP estándar que permiten a los propietarios de sitios web declarar las fuentes de contenido aprobadas que los navegadores deberían poder cargar en esa página. Los tipos cubiertos son JavaScript, CSS, marcos HTML, fuentes, imágenes y objetos incrustables como applets Java, ActiveX y archivos de audio y vídeo.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>Las siguientes directivas permiten fuentes comodín (o ancestros), no están definidas, o están definidas de forma demasiado amplia:</p>
+
+<p>script-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (236 bytes)</summary>
+				
+				<pre><code>GET http://localhost:5298/cliente HTTP/1.1
+host: localhost:5298
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (545 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sun, 11 Oct 2026 15:48:39 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, max-age=0
+Pragma: no-cache
+Set-Cookie: .AspNetCore.Antiforgery.dvXhXtVr5tw=CfDJ8Hh54UtensNOhTNkUBHqYAnZw2i2Ost7MiIH_TLrT6SVfp4abFSd1TGL9mRcsne7hYTyj-2s1VHE7yQad1JbCBkkfwXdHGZUrlef7Skzc03O42Aqt-8Pbyp5XqOQVbZdq-2Ysh7PS0g69F7-ABoz3vw; path=/; samesite=strict; httponly
+Content-Security-Policy: frame-ancestors &#39;self&#39;
+blazor-enhanced-nav: allow
+X-Frame-Options: SAMEORIGIN
+content-length: 8650
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (8650 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;base href=&quot;/&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;app.khy4lop6wu.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;WebEmpresa.yp5qmf0qrn.styles.css&quot; /&gt;
+    &lt;script type=&quot;importmap&quot;&gt;{
+  &quot;imports&quot;: {
+    &quot;./Components/Layout/ReconnectModal.razor.js&quot;: &quot;./Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot;,
+    &quot;./_framework/blazor.server.js&quot;: &quot;./_framework/blazor.server.wfr2hj6447.js&quot;,
+    &quot;./_framework/blazor.web.js&quot;: &quot;./_framework/blazor.web.wyu7y4jcvb.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js&quot;
+  }
+}&lt;/script&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;title&gt;Clientes&lt;/title&gt;&lt;/head&gt;
+
+&lt;body&gt;&lt;div class=&quot;page&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;sidebar&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;top-row ps-3 navbar navbar-dark&quot; b-blsbophmnv&gt;&lt;div class=&quot;container-fluid&quot; b-blsbophmnv&gt;&lt;a class=&quot;navbar-brand&quot; href b-blsbophmnv&gt;WebEmpresa&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;input type=&quot;checkbox&quot; title=&quot;Navigation menu&quot; class=&quot;navbar-toggler&quot; b-blsbophmnv&gt;
+
+&lt;div class=&quot;nav-scrollable&quot; onclick=&quot;document.querySelector(&amp;#x27;.navbar-toggler&amp;#x27;).click()&quot; b-blsbophmnv&gt;&lt;nav class=&quot;nav flex-column&quot; b-blsbophmnv&gt;&lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;&quot; class=&quot;nav-link&quot;&gt;&lt;span class=&quot;bi bi-house-door-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Home
+            &lt;/a&gt;&lt;/div&gt;
+
+
+         &lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;cliente&quot; class=&quot;nav-link active&quot; aria-current=&quot;page&quot;&gt;&lt;span class=&quot;bi bi-plus-square-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Cliente
+            &lt;/a&gt;&lt;/div&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;
+
+    &lt;main b-gv4gl9ovon&gt;&lt;div class=&quot;top-row px-4&quot; b-gv4gl9ovon&gt;&lt;a href=&quot;https://learn.microsoft.com/aspnet/core/&quot; target=&quot;_blank&quot; b-gv4gl9ovon&gt;About&lt;/a&gt;&lt;/div&gt;
+
+        &lt;article class=&quot;content px-4&quot; b-gv4gl9ovon&gt;&lt;!--Blazor:{&quot;type&quot;:&quot;server&quot;,&quot;prerenderId&quot;:&quot;9d265409fdd64b24864db6d0cdae9bcf&quot;,&quot;key&quot;:{&quot;locationHash&quot;:&quot;8F29CF6DDCA33A942C78C430396DAF25F1F5BC17A542FCF836BCF2137C270A22:0&quot;,&quot;formattedComponentKey&quot;:&quot;&quot;},&quot;sequence&quot;:0,&quot;descriptor&quot;:&quot;CfDJ8Hh54UtensNOhTNkUBHqYAm3FsZ8BvpE6IfRwZcFoZtTvoa7BVejWOg9GvdMH3XBFNYMFyQnFV9CF8Qga4\u002BXJe8eeiJ5Wu402kd00CK8FSe0\u002BhV385YpnHf0FWHKGZ6ZBU4cZkzTkVELXqNJoBN7Nc54S3A3q5YIqfDTpTYVzo\u002B\u002BvRY3kHRPskHdHm/nyU99GsojfpOlJs2hyJ\u002BL7ngPjt05ot3yWx01DoHNq/f2ItsW/foGpkp83cFGW\u002BDtEUpkqAjZ/TUgqj6RxnAM9dUIPrlUPV7BqxZnlyMJYeVzxbsh0ERDOCKQYizv7r7vWw1hgqc90FZh19qvciteX1cFq/EZFJx46Xmh7t7RogMWDYWpl/yGscjbRBY\u002BlLXZefSpR\u002Bew4pgEqLJJblKfuSTzNFl77FhLGWIUeMBTGSwFcnoOhH1g51uNLMV7sdj2Lg4AU/aJ0mcM97WBXN8AO/7XtQUZ5aOOHngUGtZNAEd1LkoYzKGbFgDpxFkUsbO/YSAwpMiKdedmat/SxX\u002BKNRyfm3w=&quot;}--&gt;
+
+&lt;div class=&quot;container mt-4&quot;&gt;&lt;div class=&quot;d-flex justify-content-between align-items-center mb-4&quot;&gt;&lt;h2&gt;Clientes&lt;/h2&gt;
+
+        &lt;button class=&quot;btn btn-primary&quot;&gt;
+            Nuevo Cliente
+        &lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table table-striped table-bordered table-hover align-middle&quot;&gt;&lt;thead class=&quot;table-dark&quot;&gt;&lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;
+                        &lt;th&gt;CUI&lt;/th&gt;
+                        &lt;th&gt;Nombres&lt;/th&gt;
+                        &lt;th&gt;Apellidos&lt;/th&gt;
+                        &lt;th&gt;Dirección&lt;/th&gt;
+                        &lt;th&gt;Teléfono&lt;/th&gt;
+                        &lt;th&gt;Fecha nacimiento&lt;/th&gt;
+                        &lt;th class=&quot;text-center&quot;&gt;Acciones&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+
+                &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;
+
+                            &lt;td&gt;43434343&lt;/td&gt;
+
+                            &lt;td&gt;prueba&lt;/td&gt;
+
+                            &lt;td&gt;uscap&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;45454545&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;
+
+                            &lt;td&gt;45455&lt;/td&gt;
+
+                            &lt;td&gt;Prueba&lt;/td&gt;
+
+                            &lt;td&gt;dos&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;676767&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--Blazor:{&quot;prerenderId&quot;:&quot;9d265409fdd64b24864db6d0cdae9bcf&quot;}--&gt;&lt;/article&gt;&lt;/main&gt;&lt;/div&gt;
+
+&lt;div id=&quot;blazor-error-ui&quot; data-nosnippet b-gv4gl9ovon&gt;
+    An unhandled error has occurred.
+    &lt;a href=&quot;.&quot; class=&quot;reload&quot; b-gv4gl9ovon&gt;Reload&lt;/a&gt;
+    &lt;span class=&quot;dismiss&quot; b-gv4gl9ovon&gt;🗙&lt;/span&gt;&lt;/div&gt;
+        &lt;blazor-focus-on-navigate selector=&quot;h1&quot;&gt;&lt;/blazor-focus-on-navigate&gt;
+    &lt;script type=&quot;module&quot; src=&quot;Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot; b-9z5pueqh32&gt;&lt;/script&gt;
+
+&lt;dialog id=&quot;components-reconnect-modal&quot; data-nosnippet b-9z5pueqh32&gt;&lt;div class=&quot;components-reconnect-container&quot; b-9z5pueqh32&gt;&lt;div class=&quot;components-rejoining-animation&quot; aria-hidden=&quot;true&quot; b-9z5pueqh32&gt;&lt;div b-9z5pueqh32&gt;&lt;/div&gt;
+            &lt;div b-9z5pueqh32&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;p class=&quot;components-reconnect-first-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoining the server...
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-repeated-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoin failed... trying again in &lt;span id=&quot;components-seconds-to-next-attempt&quot; b-9z5pueqh32&gt;&lt;/span&gt; seconds.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to rejoin.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-reconnect-button&quot; class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Retry
+        &lt;/button&gt;
+        &lt;p class=&quot;components-pause-visible&quot; b-9z5pueqh32&gt;
+            The session has been paused by the server.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to resume the session.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-resume-button&quot; class=&quot;components-pause-visible components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Resume
+        &lt;/button&gt;&lt;/div&gt;&lt;/dialog&gt;
+    &lt;script src=&quot;_framework/blazor.web.wyu7y4jcvb.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;&lt;!--Blazor-Server-Component-State:CfDJ8Hh54UtensNOhTNkUBHqYAmZGS3zWghS4BOrFMDsCLA5erPoR8FU90JHIdN9CLgXZ8w9tTvxJBjlejzvbhb1R+90B0gImD1ffSwQJb5lT/amkZ6IybgATRVojsEuACHVMQ4IfwSKqsSjHme/BdnY5KtIbmyOkGSzoLOKiam1s/FB2VmpqS0o0ILrOTSbNapn51M0U5Djv9JfqTBrhV2M1jxwWeD5abAXf2YcUvSJ/R3hnU3orDkYU7nMYRK1K4BvLq3HJYxKL81LnIVGUC3nBTFt+hwbZ4tuah5AHbnnkkulBElBUbgYPV5RtDtd7T5Ef7l70xWQZexkiQNW2dCccytww0dE/HVTcQM/eGH2dNyACu1h8aqOJEO89mRv0TpXeY2vW9aYxni3Gm3GCL3gTaQCYjleosTTOCs2zLgCjswZF62erAep/Ij0MixEJ1GuwUbW6uIl2b3SlgggsqXzWimlnzGW+F8PxB1lOfZOM5fC+LaOPT5Ip/T9suXZZyRQL8pcjYsXFz4GWsEJHZ0Vo7gB7rJcVs+c9wthL+/uZZ0bTBjv2glAyJ9mFpsRerRYyxOBCQ7tdh8AzgZF5UHfL04s4crFDgZhe2GXz8KMS+NY9yQ9HA4XVDQeK6GxMvgfhy1vQ6w8/ILE6dzshrn2PeU3wZePFFNK2Jv0LWpyQ1hr1zpuDngUOGEXXZ9wAW9pbIa3pjas7MgHrk+KEmHL07ULGw1PApUV5cbkxF5s0EhXq9jhAwJwrWnzx9+rI4k8O8q9c7Qo6t1Mh8UBfvSL1a4JQ5iRehg6C7xgRNsOrHpZ9EySLYKr3M8nQ3e1BbJeiM8alZj/jRn2EQxyNUFurhEBDQxlfzEuonH7yyyQ/3PtINoVGhoXbJQJHL6tQuFhxut2bCthrfcCBNxq9x842ZfIbwJB5ro2gKODA9E1xTmdRb5Kop2ixoWAAQxMKrC0BLzz2f8YEpQQ9tUmdHI5MhYOcwY+Q9CGUoMuJRTbdDGc5r/bUd98M6qR5F5aIHLf+G4rJpltDNNLdGEjCm04XkSLorAl79d74HYJq5Au0DBjH6x+GqIyM+i9equuvNyEN21s5ksYW9SkcBioBUvC19vKDn6w+h+Y0TPb6grIOIFQz2SZJUx+lVWswc3P/vYB4w==--&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Content-Security-Policy</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>frame-ancestors &#39;self&#39;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que su servidor web, servidor de aplicación, balanceador de carga, etc. está configurado apropiadamente para establecer la cabecera de Política de Seguridad de Contenido.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">CSP: Failure to Define Directive with No Fallback</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:5298/cliente</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/2021/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/2025/A02_2025-Security_Misconfiguration/">OWASP_2025_A02</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The directive(s): form-action is/are among the directives that do not fallback to default-src.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (236 bytes)</summary>
+				
+				<pre><code>GET http://localhost:5298/cliente HTTP/1.1
+host: localhost:5298
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (545 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sun, 11 Oct 2026 15:48:39 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, max-age=0
+Pragma: no-cache
+Set-Cookie: .AspNetCore.Antiforgery.dvXhXtVr5tw=CfDJ8Hh54UtensNOhTNkUBHqYAnZw2i2Ost7MiIH_TLrT6SVfp4abFSd1TGL9mRcsne7hYTyj-2s1VHE7yQad1JbCBkkfwXdHGZUrlef7Skzc03O42Aqt-8Pbyp5XqOQVbZdq-2Ysh7PS0g69F7-ABoz3vw; path=/; samesite=strict; httponly
+Content-Security-Policy: frame-ancestors &#39;self&#39;
+blazor-enhanced-nav: allow
+X-Frame-Options: SAMEORIGIN
+content-length: 8650
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (8650 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;base href=&quot;/&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;app.khy4lop6wu.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;WebEmpresa.yp5qmf0qrn.styles.css&quot; /&gt;
+    &lt;script type=&quot;importmap&quot;&gt;{
+  &quot;imports&quot;: {
+    &quot;./Components/Layout/ReconnectModal.razor.js&quot;: &quot;./Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot;,
+    &quot;./_framework/blazor.server.js&quot;: &quot;./_framework/blazor.server.wfr2hj6447.js&quot;,
+    &quot;./_framework/blazor.web.js&quot;: &quot;./_framework/blazor.web.wyu7y4jcvb.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js&quot;
+  }
+}&lt;/script&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;title&gt;Clientes&lt;/title&gt;&lt;/head&gt;
+
+&lt;body&gt;&lt;div class=&quot;page&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;sidebar&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;top-row ps-3 navbar navbar-dark&quot; b-blsbophmnv&gt;&lt;div class=&quot;container-fluid&quot; b-blsbophmnv&gt;&lt;a class=&quot;navbar-brand&quot; href b-blsbophmnv&gt;WebEmpresa&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;input type=&quot;checkbox&quot; title=&quot;Navigation menu&quot; class=&quot;navbar-toggler&quot; b-blsbophmnv&gt;
+
+&lt;div class=&quot;nav-scrollable&quot; onclick=&quot;document.querySelector(&amp;#x27;.navbar-toggler&amp;#x27;).click()&quot; b-blsbophmnv&gt;&lt;nav class=&quot;nav flex-column&quot; b-blsbophmnv&gt;&lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;&quot; class=&quot;nav-link&quot;&gt;&lt;span class=&quot;bi bi-house-door-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Home
+            &lt;/a&gt;&lt;/div&gt;
+
+
+         &lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;cliente&quot; class=&quot;nav-link active&quot; aria-current=&quot;page&quot;&gt;&lt;span class=&quot;bi bi-plus-square-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Cliente
+            &lt;/a&gt;&lt;/div&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;
+
+    &lt;main b-gv4gl9ovon&gt;&lt;div class=&quot;top-row px-4&quot; b-gv4gl9ovon&gt;&lt;a href=&quot;https://learn.microsoft.com/aspnet/core/&quot; target=&quot;_blank&quot; b-gv4gl9ovon&gt;About&lt;/a&gt;&lt;/div&gt;
+
+        &lt;article class=&quot;content px-4&quot; b-gv4gl9ovon&gt;&lt;!--Blazor:{&quot;type&quot;:&quot;server&quot;,&quot;prerenderId&quot;:&quot;9d265409fdd64b24864db6d0cdae9bcf&quot;,&quot;key&quot;:{&quot;locationHash&quot;:&quot;8F29CF6DDCA33A942C78C430396DAF25F1F5BC17A542FCF836BCF2137C270A22:0&quot;,&quot;formattedComponentKey&quot;:&quot;&quot;},&quot;sequence&quot;:0,&quot;descriptor&quot;:&quot;CfDJ8Hh54UtensNOhTNkUBHqYAm3FsZ8BvpE6IfRwZcFoZtTvoa7BVejWOg9GvdMH3XBFNYMFyQnFV9CF8Qga4\u002BXJe8eeiJ5Wu402kd00CK8FSe0\u002BhV385YpnHf0FWHKGZ6ZBU4cZkzTkVELXqNJoBN7Nc54S3A3q5YIqfDTpTYVzo\u002B\u002BvRY3kHRPskHdHm/nyU99GsojfpOlJs2hyJ\u002BL7ngPjt05ot3yWx01DoHNq/f2ItsW/foGpkp83cFGW\u002BDtEUpkqAjZ/TUgqj6RxnAM9dUIPrlUPV7BqxZnlyMJYeVzxbsh0ERDOCKQYizv7r7vWw1hgqc90FZh19qvciteX1cFq/EZFJx46Xmh7t7RogMWDYWpl/yGscjbRBY\u002BlLXZefSpR\u002Bew4pgEqLJJblKfuSTzNFl77FhLGWIUeMBTGSwFcnoOhH1g51uNLMV7sdj2Lg4AU/aJ0mcM97WBXN8AO/7XtQUZ5aOOHngUGtZNAEd1LkoYzKGbFgDpxFkUsbO/YSAwpMiKdedmat/SxX\u002BKNRyfm3w=&quot;}--&gt;
+
+&lt;div class=&quot;container mt-4&quot;&gt;&lt;div class=&quot;d-flex justify-content-between align-items-center mb-4&quot;&gt;&lt;h2&gt;Clientes&lt;/h2&gt;
+
+        &lt;button class=&quot;btn btn-primary&quot;&gt;
+            Nuevo Cliente
+        &lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table table-striped table-bordered table-hover align-middle&quot;&gt;&lt;thead class=&quot;table-dark&quot;&gt;&lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;
+                        &lt;th&gt;CUI&lt;/th&gt;
+                        &lt;th&gt;Nombres&lt;/th&gt;
+                        &lt;th&gt;Apellidos&lt;/th&gt;
+                        &lt;th&gt;Dirección&lt;/th&gt;
+                        &lt;th&gt;Teléfono&lt;/th&gt;
+                        &lt;th&gt;Fecha nacimiento&lt;/th&gt;
+                        &lt;th class=&quot;text-center&quot;&gt;Acciones&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+
+                &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;
+
+                            &lt;td&gt;43434343&lt;/td&gt;
+
+                            &lt;td&gt;prueba&lt;/td&gt;
+
+                            &lt;td&gt;uscap&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;45454545&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;
+
+                            &lt;td&gt;45455&lt;/td&gt;
+
+                            &lt;td&gt;Prueba&lt;/td&gt;
+
+                            &lt;td&gt;dos&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;676767&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--Blazor:{&quot;prerenderId&quot;:&quot;9d265409fdd64b24864db6d0cdae9bcf&quot;}--&gt;&lt;/article&gt;&lt;/main&gt;&lt;/div&gt;
+
+&lt;div id=&quot;blazor-error-ui&quot; data-nosnippet b-gv4gl9ovon&gt;
+    An unhandled error has occurred.
+    &lt;a href=&quot;.&quot; class=&quot;reload&quot; b-gv4gl9ovon&gt;Reload&lt;/a&gt;
+    &lt;span class=&quot;dismiss&quot; b-gv4gl9ovon&gt;🗙&lt;/span&gt;&lt;/div&gt;
+        &lt;blazor-focus-on-navigate selector=&quot;h1&quot;&gt;&lt;/blazor-focus-on-navigate&gt;
+    &lt;script type=&quot;module&quot; src=&quot;Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot; b-9z5pueqh32&gt;&lt;/script&gt;
+
+&lt;dialog id=&quot;components-reconnect-modal&quot; data-nosnippet b-9z5pueqh32&gt;&lt;div class=&quot;components-reconnect-container&quot; b-9z5pueqh32&gt;&lt;div class=&quot;components-rejoining-animation&quot; aria-hidden=&quot;true&quot; b-9z5pueqh32&gt;&lt;div b-9z5pueqh32&gt;&lt;/div&gt;
+            &lt;div b-9z5pueqh32&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;p class=&quot;components-reconnect-first-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoining the server...
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-repeated-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoin failed... trying again in &lt;span id=&quot;components-seconds-to-next-attempt&quot; b-9z5pueqh32&gt;&lt;/span&gt; seconds.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to rejoin.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-reconnect-button&quot; class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Retry
+        &lt;/button&gt;
+        &lt;p class=&quot;components-pause-visible&quot; b-9z5pueqh32&gt;
+            The session has been paused by the server.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to resume the session.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-resume-button&quot; class=&quot;components-pause-visible components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Resume
+        &lt;/button&gt;&lt;/div&gt;&lt;/dialog&gt;
+    &lt;script src=&quot;_framework/blazor.web.wyu7y4jcvb.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;&lt;!--Blazor-Server-Component-State:CfDJ8Hh54UtensNOhTNkUBHqYAmZGS3zWghS4BOrFMDsCLA5erPoR8FU90JHIdN9CLgXZ8w9tTvxJBjlejzvbhb1R+90B0gImD1ffSwQJb5lT/amkZ6IybgATRVojsEuACHVMQ4IfwSKqsSjHme/BdnY5KtIbmyOkGSzoLOKiam1s/FB2VmpqS0o0ILrOTSbNapn51M0U5Djv9JfqTBrhV2M1jxwWeD5abAXf2YcUvSJ/R3hnU3orDkYU7nMYRK1K4BvLq3HJYxKL81LnIVGUC3nBTFt+hwbZ4tuah5AHbnnkkulBElBUbgYPV5RtDtd7T5Ef7l70xWQZexkiQNW2dCccytww0dE/HVTcQM/eGH2dNyACu1h8aqOJEO89mRv0TpXeY2vW9aYxni3Gm3GCL3gTaQCYjleosTTOCs2zLgCjswZF62erAep/Ij0MixEJ1GuwUbW6uIl2b3SlgggsqXzWimlnzGW+F8PxB1lOfZOM5fC+LaOPT5Ip/T9suXZZyRQL8pcjYsXFz4GWsEJHZ0Vo7gB7rJcVs+c9wthL+/uZZ0bTBjv2glAyJ9mFpsRerRYyxOBCQ7tdh8AzgZF5UHfL04s4crFDgZhe2GXz8KMS+NY9yQ9HA4XVDQeK6GxMvgfhy1vQ6w8/ILE6dzshrn2PeU3wZePFFNK2Jv0LWpyQ1hr1zpuDngUOGEXXZ9wAW9pbIa3pjas7MgHrk+KEmHL07ULGw1PApUV5cbkxF5s0EhXq9jhAwJwrWnzx9+rI4k8O8q9c7Qo6t1Mh8UBfvSL1a4JQ5iRehg6C7xgRNsOrHpZ9EySLYKr3M8nQ3e1BbJeiM8alZj/jRn2EQxyNUFurhEBDQxlfzEuonH7yyyQ/3PtINoVGhoXbJQJHL6tQuFhxut2bCthrfcCBNxq9x842ZfIbwJB5ro2gKODA9E1xTmdRb5Kop2ixoWAAQxMKrC0BLzz2f8YEpQQ9tUmdHI5MhYOcwY+Q9CGUoMuJRTbdDGc5r/bUd98M6qR5F5aIHLf+G4rJpltDNNLdGEjCm04XkSLorAl79d74HYJq5Au0DBjH6x+GqIyM+i9equuvNyEN21s5ksYW9SkcBioBUvC19vKDn6w+h+Y0TPb6grIOIFQz2SZJUx+lVWswc3P/vYB4w==--&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Content-Security-Policy</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>frame-ancestors &#39;self&#39;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que su servidor web, servidor de aplicación, balanceador de carga, etc. está configurado apropiadamente para establecer la cabecera de Política de Seguridad de Contenido.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">CSP: script-src unsafe-inline</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:5298/cliente</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/2021/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/2025/A02_2025-Security_Misconfiguration/">OWASP_2025_A02</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Content Security Policy (CSP) es una capa de seguridad añadida que ayuda a detectar y mitigar ciertos tipos de ataques. Incluyendo (pero no limitado a) Cross Site Scripting (XSS), y ataques de inyección de datos. Estos ataques se utilizan, para todo, desde el robo de datos a la desfiguración de sitios o la distribución de malware. CSP proporciona un conjunto de cabeceras HTTP estándar que permiten a los propietarios de sitios web declarar las fuentes de contenido aprobadas que los navegadores deberían poder cargar en esa página. Los tipos cubiertos son JavaScript, CSS, marcos HTML, fuentes, imágenes y objetos incrustables como applets Java, ActiveX y archivos de audio y vídeo.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>script-src incluye unsafe-inline.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (236 bytes)</summary>
+				
+				<pre><code>GET http://localhost:5298/cliente HTTP/1.1
+host: localhost:5298
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (545 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sun, 11 Oct 2026 15:48:39 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, max-age=0
+Pragma: no-cache
+Set-Cookie: .AspNetCore.Antiforgery.dvXhXtVr5tw=CfDJ8Hh54UtensNOhTNkUBHqYAno0uacU7TZKmxS3D5bIoTENBQlQJsOJFIoRbXqkJB2nhNwGz7RsjLs9-hHo_PpErdqdc52NGjYPl6QOzCRjG39Ohacyo5bgZoCTnrYv5J1fSDdm_M1yA0Mfe5M5kwkda0; path=/; samesite=strict; httponly
+Content-Security-Policy: frame-ancestors &#39;self&#39;
+blazor-enhanced-nav: allow
+X-Frame-Options: SAMEORIGIN
+content-length: 8630
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (8630 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;base href=&quot;/&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;app.khy4lop6wu.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;WebEmpresa.yp5qmf0qrn.styles.css&quot; /&gt;
+    &lt;script type=&quot;importmap&quot;&gt;{
+  &quot;imports&quot;: {
+    &quot;./Components/Layout/ReconnectModal.razor.js&quot;: &quot;./Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot;,
+    &quot;./_framework/blazor.server.js&quot;: &quot;./_framework/blazor.server.wfr2hj6447.js&quot;,
+    &quot;./_framework/blazor.web.js&quot;: &quot;./_framework/blazor.web.wyu7y4jcvb.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js&quot;
+  }
+}&lt;/script&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;title&gt;Clientes&lt;/title&gt;&lt;/head&gt;
+
+&lt;body&gt;&lt;div class=&quot;page&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;sidebar&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;top-row ps-3 navbar navbar-dark&quot; b-blsbophmnv&gt;&lt;div class=&quot;container-fluid&quot; b-blsbophmnv&gt;&lt;a class=&quot;navbar-brand&quot; href b-blsbophmnv&gt;WebEmpresa&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;input type=&quot;checkbox&quot; title=&quot;Navigation menu&quot; class=&quot;navbar-toggler&quot; b-blsbophmnv&gt;
+
+&lt;div class=&quot;nav-scrollable&quot; onclick=&quot;document.querySelector(&amp;#x27;.navbar-toggler&amp;#x27;).click()&quot; b-blsbophmnv&gt;&lt;nav class=&quot;nav flex-column&quot; b-blsbophmnv&gt;&lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;&quot; class=&quot;nav-link&quot;&gt;&lt;span class=&quot;bi bi-house-door-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Home
+            &lt;/a&gt;&lt;/div&gt;
+
+
+         &lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;cliente&quot; class=&quot;nav-link active&quot; aria-current=&quot;page&quot;&gt;&lt;span class=&quot;bi bi-plus-square-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Cliente
+            &lt;/a&gt;&lt;/div&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;
+
+    &lt;main b-gv4gl9ovon&gt;&lt;div class=&quot;top-row px-4&quot; b-gv4gl9ovon&gt;&lt;a href=&quot;https://learn.microsoft.com/aspnet/core/&quot; target=&quot;_blank&quot; b-gv4gl9ovon&gt;About&lt;/a&gt;&lt;/div&gt;
+
+        &lt;article class=&quot;content px-4&quot; b-gv4gl9ovon&gt;&lt;!--Blazor:{&quot;type&quot;:&quot;server&quot;,&quot;prerenderId&quot;:&quot;049af6acb67c4d2a999f8328526f9f52&quot;,&quot;key&quot;:{&quot;locationHash&quot;:&quot;8F29CF6DDCA33A942C78C430396DAF25F1F5BC17A542FCF836BCF2137C270A22:0&quot;,&quot;formattedComponentKey&quot;:&quot;&quot;},&quot;sequence&quot;:0,&quot;descriptor&quot;:&quot;CfDJ8Hh54UtensNOhTNkUBHqYAmGS7pWURbGDEpgz9XeyAHiy6eIG6LvlDT1/CbsdbU6HvF3EFs/UA1njIjnzR2kJ6ewtXzrqrdZ4\u002BbAJHiiZXKqkOjWFXd6mCELmw2KUNHA1U5zuJ3WvIeIKrdfF41rLaNi1jdWW6Asfv/208vHTSwoiRLWOjYLbLVviLzjxpw7DDIutr2yYIi/iyWFPVxrZvoTPMm5ju2dboxSHn9/Ic\u002BSaMn56XAWoLOswtcZbfHAM8TCoGZBIHT4EoXTrtgO7Snxt5At1A26464ApDg6yUsrwmWD9nW47er\u002BB1v2FQDMdoWPJzbepzVm9iEmHb\u002B5qCgNNo5M1cRXK0Kgf/MrejH72\u002BlM1bkMg7stLVSagfiPycjvDyLZIZ4GHbeWs5s4zYZhDiDk0Ima4thSPTR0dcWmTYFKYQDSITBKLyQn2r6C241zfzdfLGrpLkqCQFKyDE0ryzdEg61aeeShHA0ZxeRT93o9lfYOiP3NJpUv3ZMU6Dq6XoxllmJoNhWosGQ77go=&quot;}--&gt;
+
+&lt;div class=&quot;container mt-4&quot;&gt;&lt;div class=&quot;d-flex justify-content-between align-items-center mb-4&quot;&gt;&lt;h2&gt;Clientes&lt;/h2&gt;
+
+        &lt;button class=&quot;btn btn-primary&quot;&gt;
+            Nuevo Cliente
+        &lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table table-striped table-bordered table-hover align-middle&quot;&gt;&lt;thead class=&quot;table-dark&quot;&gt;&lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;
+                        &lt;th&gt;CUI&lt;/th&gt;
+                        &lt;th&gt;Nombres&lt;/th&gt;
+                        &lt;th&gt;Apellidos&lt;/th&gt;
+                        &lt;th&gt;Dirección&lt;/th&gt;
+                        &lt;th&gt;Teléfono&lt;/th&gt;
+                        &lt;th&gt;Fecha nacimiento&lt;/th&gt;
+                        &lt;th class=&quot;text-center&quot;&gt;Acciones&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+
+                &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;
+
+                            &lt;td&gt;43434343&lt;/td&gt;
+
+                            &lt;td&gt;prueba&lt;/td&gt;
+
+                            &lt;td&gt;uscap&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;45454545&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;
+
+                            &lt;td&gt;45455&lt;/td&gt;
+
+                            &lt;td&gt;Prueba&lt;/td&gt;
+
+                            &lt;td&gt;dos&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;676767&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--Blazor:{&quot;prerenderId&quot;:&quot;049af6acb67c4d2a999f8328526f9f52&quot;}--&gt;&lt;/article&gt;&lt;/main&gt;&lt;/div&gt;
+
+&lt;div id=&quot;blazor-error-ui&quot; data-nosnippet b-gv4gl9ovon&gt;
+    An unhandled error has occurred.
+    &lt;a href=&quot;.&quot; class=&quot;reload&quot; b-gv4gl9ovon&gt;Reload&lt;/a&gt;
+    &lt;span class=&quot;dismiss&quot; b-gv4gl9ovon&gt;🗙&lt;/span&gt;&lt;/div&gt;
+        &lt;blazor-focus-on-navigate selector=&quot;h1&quot;&gt;&lt;/blazor-focus-on-navigate&gt;
+    &lt;script type=&quot;module&quot; src=&quot;Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot; b-9z5pueqh32&gt;&lt;/script&gt;
+
+&lt;dialog id=&quot;components-reconnect-modal&quot; data-nosnippet b-9z5pueqh32&gt;&lt;div class=&quot;components-reconnect-container&quot; b-9z5pueqh32&gt;&lt;div class=&quot;components-rejoining-animation&quot; aria-hidden=&quot;true&quot; b-9z5pueqh32&gt;&lt;div b-9z5pueqh32&gt;&lt;/div&gt;
+            &lt;div b-9z5pueqh32&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;p class=&quot;components-reconnect-first-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoining the server...
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-repeated-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoin failed... trying again in &lt;span id=&quot;components-seconds-to-next-attempt&quot; b-9z5pueqh32&gt;&lt;/span&gt; seconds.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to rejoin.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-reconnect-button&quot; class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Retry
+        &lt;/button&gt;
+        &lt;p class=&quot;components-pause-visible&quot; b-9z5pueqh32&gt;
+            The session has been paused by the server.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to resume the session.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-resume-button&quot; class=&quot;components-pause-visible components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Resume
+        &lt;/button&gt;&lt;/div&gt;&lt;/dialog&gt;
+    &lt;script src=&quot;_framework/blazor.web.wyu7y4jcvb.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;&lt;!--Blazor-Server-Component-State:CfDJ8Hh54UtensNOhTNkUBHqYAmvlTJT2NQJzOvaRtAMFACedr65M8oa8/AgWvLU6CsFRfxZoNLOKRNjS+Jr+dJDpkI/C4AnxOssKhxLHS1oRKx7Lj99RQc8oyeDKRh+GBf1KUpmTGfCswe5BLi77t275/ESw0bauI4Z1V0/vBWRUoxMxBfsEZIHJkodOkURA1KKQBam+hv9E7lemUavJjsWzCISr8QICPdeiBTplBjuuF4gZzRA61d6IyZm2f6xpDpbYJdKqF+nWVwKKe278/lnHwakRC1PDu3mXmsUwEhoK09jC7X76KeWR8XQlh/Z424XXyHB7TlZEFKHxggDEvJcyu2j6so/iNp/M8ynsr0WX3KyMlZSzbCNBBJ/pwkXj2Fg4jWOhzZY9ZYZZqMaVhVpsWIkrIeyhMwa7GPMWHjbUWpHuwsLyUMvLg23J5Qs7aJcD4UqE7kUFlo1Qq2+5mrHI03BeOAglOq0zXmDctgMHLp+TKWuZeaEmSFbBnrgqnLHGZ8q3AQaKtN5XtQEeJRMLHlVczGrbqqwAd0ArCCHB2IPtPVEouCdG4qvNcS8TyZF84diA21Bs5BMhx1bBBhR8p6BVBTyCmVXKcNRSlH3WLK0B7mPAYDPD6Jzwt88QSZIXb/j8R2jwiQTWFh6Gb5IT2rb7jUY5UOTyQipDJzcdTfhDtLoizHyqo/x5KiqMAYwDKg+d2RcMXXyohDhh+vjZNaYfa9BdHaCazOYQFkpR6cktN4Hsr3HEEnSV9FWSvXWKRgZz9m3X3jeRbRsc6rgaCQufdqv1kqAa4IJzTHuSGob03Zr6VR+vjfTWCtbTt6qmuDF71zq4R6KPH6kvJz7O/CxmkG9PDM4ZrP3o6T28yteUAF2J4Vo6y7WJI9RHWWRjirT7s+7NPLHkYLnrkN89GWjjXK4r4WzdbUjatn5AqQgga8bbvpz4rf8UKgYq81QQmJhR3omVFEB4I7eBytVAaGmnuq3IJl+P9FViB6YLJy5cqsvishUxEn5kjrmaQIAIToDG/yQAfNzGBoi3J5Jvza5qlPRZyQMItAgSlq77MYZR65gr/Z0ZQUOebgd/5yoKtNfp21V4pdU4xuWCrUJ0MhpwiqM9j08IwQ980V6RMM2z3pYdz6mPMd/a5swLBt/aQ==--&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Content-Security-Policy</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>frame-ancestors &#39;self&#39;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que su servidor web, servidor de aplicación, balanceador de carga, etc. está configurado apropiadamente para establecer la cabecera de Política de Seguridad de Contenido.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">CSP: style-src unsafe-inline</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:5298/cliente</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/2021/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/2025/A02_2025-Security_Misconfiguration/">OWASP_2025_A02</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Content Security Policy (CSP) es una capa de seguridad añadida que ayuda a detectar y mitigar ciertos tipos de ataques. Incluyendo (pero no limitado a) Cross Site Scripting (XSS), y ataques de inyección de datos. Estos ataques se utilizan, para todo, desde el robo de datos a la desfiguración de sitios o la distribución de malware. CSP proporciona un conjunto de cabeceras HTTP estándar que permiten a los propietarios de sitios web declarar las fuentes de contenido aprobadas que los navegadores deberían poder cargar en esa página. Los tipos cubiertos son JavaScript, CSS, marcos HTML, fuentes, imágenes y objetos incrustables como applets Java, ActiveX y archivos de audio y vídeo.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>style-src incluye unsafe-inline.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (236 bytes)</summary>
+				
+				<pre><code>GET http://localhost:5298/cliente HTTP/1.1
+host: localhost:5298
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (545 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sun, 11 Oct 2026 15:48:39 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, max-age=0
+Pragma: no-cache
+Set-Cookie: .AspNetCore.Antiforgery.dvXhXtVr5tw=CfDJ8Hh54UtensNOhTNkUBHqYAnZw2i2Ost7MiIH_TLrT6SVfp4abFSd1TGL9mRcsne7hYTyj-2s1VHE7yQad1JbCBkkfwXdHGZUrlef7Skzc03O42Aqt-8Pbyp5XqOQVbZdq-2Ysh7PS0g69F7-ABoz3vw; path=/; samesite=strict; httponly
+Content-Security-Policy: frame-ancestors &#39;self&#39;
+blazor-enhanced-nav: allow
+X-Frame-Options: SAMEORIGIN
+content-length: 8650
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (8650 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;base href=&quot;/&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;app.khy4lop6wu.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;WebEmpresa.yp5qmf0qrn.styles.css&quot; /&gt;
+    &lt;script type=&quot;importmap&quot;&gt;{
+  &quot;imports&quot;: {
+    &quot;./Components/Layout/ReconnectModal.razor.js&quot;: &quot;./Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot;,
+    &quot;./_framework/blazor.server.js&quot;: &quot;./_framework/blazor.server.wfr2hj6447.js&quot;,
+    &quot;./_framework/blazor.web.js&quot;: &quot;./_framework/blazor.web.wyu7y4jcvb.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js&quot;
+  }
+}&lt;/script&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;title&gt;Clientes&lt;/title&gt;&lt;/head&gt;
+
+&lt;body&gt;&lt;div class=&quot;page&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;sidebar&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;top-row ps-3 navbar navbar-dark&quot; b-blsbophmnv&gt;&lt;div class=&quot;container-fluid&quot; b-blsbophmnv&gt;&lt;a class=&quot;navbar-brand&quot; href b-blsbophmnv&gt;WebEmpresa&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;input type=&quot;checkbox&quot; title=&quot;Navigation menu&quot; class=&quot;navbar-toggler&quot; b-blsbophmnv&gt;
+
+&lt;div class=&quot;nav-scrollable&quot; onclick=&quot;document.querySelector(&amp;#x27;.navbar-toggler&amp;#x27;).click()&quot; b-blsbophmnv&gt;&lt;nav class=&quot;nav flex-column&quot; b-blsbophmnv&gt;&lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;&quot; class=&quot;nav-link&quot;&gt;&lt;span class=&quot;bi bi-house-door-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Home
+            &lt;/a&gt;&lt;/div&gt;
+
+
+         &lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;cliente&quot; class=&quot;nav-link active&quot; aria-current=&quot;page&quot;&gt;&lt;span class=&quot;bi bi-plus-square-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Cliente
+            &lt;/a&gt;&lt;/div&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;
+
+    &lt;main b-gv4gl9ovon&gt;&lt;div class=&quot;top-row px-4&quot; b-gv4gl9ovon&gt;&lt;a href=&quot;https://learn.microsoft.com/aspnet/core/&quot; target=&quot;_blank&quot; b-gv4gl9ovon&gt;About&lt;/a&gt;&lt;/div&gt;
+
+        &lt;article class=&quot;content px-4&quot; b-gv4gl9ovon&gt;&lt;!--Blazor:{&quot;type&quot;:&quot;server&quot;,&quot;prerenderId&quot;:&quot;9d265409fdd64b24864db6d0cdae9bcf&quot;,&quot;key&quot;:{&quot;locationHash&quot;:&quot;8F29CF6DDCA33A942C78C430396DAF25F1F5BC17A542FCF836BCF2137C270A22:0&quot;,&quot;formattedComponentKey&quot;:&quot;&quot;},&quot;sequence&quot;:0,&quot;descriptor&quot;:&quot;CfDJ8Hh54UtensNOhTNkUBHqYAm3FsZ8BvpE6IfRwZcFoZtTvoa7BVejWOg9GvdMH3XBFNYMFyQnFV9CF8Qga4\u002BXJe8eeiJ5Wu402kd00CK8FSe0\u002BhV385YpnHf0FWHKGZ6ZBU4cZkzTkVELXqNJoBN7Nc54S3A3q5YIqfDTpTYVzo\u002B\u002BvRY3kHRPskHdHm/nyU99GsojfpOlJs2hyJ\u002BL7ngPjt05ot3yWx01DoHNq/f2ItsW/foGpkp83cFGW\u002BDtEUpkqAjZ/TUgqj6RxnAM9dUIPrlUPV7BqxZnlyMJYeVzxbsh0ERDOCKQYizv7r7vWw1hgqc90FZh19qvciteX1cFq/EZFJx46Xmh7t7RogMWDYWpl/yGscjbRBY\u002BlLXZefSpR\u002Bew4pgEqLJJblKfuSTzNFl77FhLGWIUeMBTGSwFcnoOhH1g51uNLMV7sdj2Lg4AU/aJ0mcM97WBXN8AO/7XtQUZ5aOOHngUGtZNAEd1LkoYzKGbFgDpxFkUsbO/YSAwpMiKdedmat/SxX\u002BKNRyfm3w=&quot;}--&gt;
+
+&lt;div class=&quot;container mt-4&quot;&gt;&lt;div class=&quot;d-flex justify-content-between align-items-center mb-4&quot;&gt;&lt;h2&gt;Clientes&lt;/h2&gt;
+
+        &lt;button class=&quot;btn btn-primary&quot;&gt;
+            Nuevo Cliente
+        &lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table table-striped table-bordered table-hover align-middle&quot;&gt;&lt;thead class=&quot;table-dark&quot;&gt;&lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;
+                        &lt;th&gt;CUI&lt;/th&gt;
+                        &lt;th&gt;Nombres&lt;/th&gt;
+                        &lt;th&gt;Apellidos&lt;/th&gt;
+                        &lt;th&gt;Dirección&lt;/th&gt;
+                        &lt;th&gt;Teléfono&lt;/th&gt;
+                        &lt;th&gt;Fecha nacimiento&lt;/th&gt;
+                        &lt;th class=&quot;text-center&quot;&gt;Acciones&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+
+                &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;
+
+                            &lt;td&gt;43434343&lt;/td&gt;
+
+                            &lt;td&gt;prueba&lt;/td&gt;
+
+                            &lt;td&gt;uscap&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;45454545&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;
+
+                            &lt;td&gt;45455&lt;/td&gt;
+
+                            &lt;td&gt;Prueba&lt;/td&gt;
+
+                            &lt;td&gt;dos&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;676767&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--Blazor:{&quot;prerenderId&quot;:&quot;9d265409fdd64b24864db6d0cdae9bcf&quot;}--&gt;&lt;/article&gt;&lt;/main&gt;&lt;/div&gt;
+
+&lt;div id=&quot;blazor-error-ui&quot; data-nosnippet b-gv4gl9ovon&gt;
+    An unhandled error has occurred.
+    &lt;a href=&quot;.&quot; class=&quot;reload&quot; b-gv4gl9ovon&gt;Reload&lt;/a&gt;
+    &lt;span class=&quot;dismiss&quot; b-gv4gl9ovon&gt;🗙&lt;/span&gt;&lt;/div&gt;
+        &lt;blazor-focus-on-navigate selector=&quot;h1&quot;&gt;&lt;/blazor-focus-on-navigate&gt;
+    &lt;script type=&quot;module&quot; src=&quot;Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot; b-9z5pueqh32&gt;&lt;/script&gt;
+
+&lt;dialog id=&quot;components-reconnect-modal&quot; data-nosnippet b-9z5pueqh32&gt;&lt;div class=&quot;components-reconnect-container&quot; b-9z5pueqh32&gt;&lt;div class=&quot;components-rejoining-animation&quot; aria-hidden=&quot;true&quot; b-9z5pueqh32&gt;&lt;div b-9z5pueqh32&gt;&lt;/div&gt;
+            &lt;div b-9z5pueqh32&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;p class=&quot;components-reconnect-first-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoining the server...
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-repeated-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoin failed... trying again in &lt;span id=&quot;components-seconds-to-next-attempt&quot; b-9z5pueqh32&gt;&lt;/span&gt; seconds.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to rejoin.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-reconnect-button&quot; class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Retry
+        &lt;/button&gt;
+        &lt;p class=&quot;components-pause-visible&quot; b-9z5pueqh32&gt;
+            The session has been paused by the server.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to resume the session.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-resume-button&quot; class=&quot;components-pause-visible components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Resume
+        &lt;/button&gt;&lt;/div&gt;&lt;/dialog&gt;
+    &lt;script src=&quot;_framework/blazor.web.wyu7y4jcvb.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;&lt;!--Blazor-Server-Component-State:CfDJ8Hh54UtensNOhTNkUBHqYAmZGS3zWghS4BOrFMDsCLA5erPoR8FU90JHIdN9CLgXZ8w9tTvxJBjlejzvbhb1R+90B0gImD1ffSwQJb5lT/amkZ6IybgATRVojsEuACHVMQ4IfwSKqsSjHme/BdnY5KtIbmyOkGSzoLOKiam1s/FB2VmpqS0o0ILrOTSbNapn51M0U5Djv9JfqTBrhV2M1jxwWeD5abAXf2YcUvSJ/R3hnU3orDkYU7nMYRK1K4BvLq3HJYxKL81LnIVGUC3nBTFt+hwbZ4tuah5AHbnnkkulBElBUbgYPV5RtDtd7T5Ef7l70xWQZexkiQNW2dCccytww0dE/HVTcQM/eGH2dNyACu1h8aqOJEO89mRv0TpXeY2vW9aYxni3Gm3GCL3gTaQCYjleosTTOCs2zLgCjswZF62erAep/Ij0MixEJ1GuwUbW6uIl2b3SlgggsqXzWimlnzGW+F8PxB1lOfZOM5fC+LaOPT5Ip/T9suXZZyRQL8pcjYsXFz4GWsEJHZ0Vo7gB7rJcVs+c9wthL+/uZZ0bTBjv2glAyJ9mFpsRerRYyxOBCQ7tdh8AzgZF5UHfL04s4crFDgZhe2GXz8KMS+NY9yQ9HA4XVDQeK6GxMvgfhy1vQ6w8/ILE6dzshrn2PeU3wZePFFNK2Jv0LWpyQ1hr1zpuDngUOGEXXZ9wAW9pbIa3pjas7MgHrk+KEmHL07ULGw1PApUV5cbkxF5s0EhXq9jhAwJwrWnzx9+rI4k8O8q9c7Qo6t1Mh8UBfvSL1a4JQ5iRehg6C7xgRNsOrHpZ9EySLYKr3M8nQ3e1BbJeiM8alZj/jRn2EQxyNUFurhEBDQxlfzEuonH7yyyQ/3PtINoVGhoXbJQJHL6tQuFhxut2bCthrfcCBNxq9x842ZfIbwJB5ro2gKODA9E1xTmdRb5Kop2ixoWAAQxMKrC0BLzz2f8YEpQQ9tUmdHI5MhYOcwY+Q9CGUoMuJRTbdDGc5r/bUd98M6qR5F5aIHLf+G4rJpltDNNLdGEjCm04XkSLorAl79d74HYJq5Au0DBjH6x+GqIyM+i9equuvNyEN21s5ksYW9SkcBioBUvC19vKDn6w+h+Y0TPb6grIOIFQz2SZJUx+lVWswc3P/vYB4w==--&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Content-Security-Policy</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>frame-ancestors &#39;self&#39;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que su servidor web, servidor de aplicación, balanceador de carga, etc. está configurado apropiadamente para establecer la cabecera de Política de Seguridad de Contenido.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				
+				
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Media</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:5298</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-4">Falta encabezado X-Content-Type-Options</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:5298/favicon.png</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/2021/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/2025/A02_2025-Security_Misconfiguration/">OWASP_2025_A02</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>La cabecera Anti-MIME-Sniffing X-Content-Type-Options no se ha establecido en &#39;nosniff&#39;. Esto permite que las versiones anteriores de Internet Explorer y Chrome realicen MIME-sniffing en el cuerpo de la respuesta, lo que puede provocar que el cuerpo dé la respuesta se interprete y se muestre como un tipo de contenido distinto del tipo de contenido declarado. Las versiones actuales (principios de 2014) y heredadas de Firefox utilizarán el tipo de contenido declarado (si se establece uno), en lugar de realizar MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>Este problema aún se aplica a las páginas de tipo error (401, 403, 500, etc.), ya que esas páginas a menudo se ven afectadas por problemas de inyección, en cuyo caso aún existe la preocupación de que los navegadores husmeen las páginas lejos de su tipo de contenido real.</p>
+
+<p>En el umbral «Alto» esta regla de análisis no alertará sobre respuestas de error del cliente o servidor.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (481 bytes)</summary>
+				
+				<pre><code>GET http://localhost:5298/favicon.png HTTP/1.1
+host: localhost:5298
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:5298/cliente
+Cookie: .AspNetCore.Antiforgery.dvXhXtVr5tw=CfDJ8Hh54UtensNOhTNkUBHqYAnZw2i2Ost7MiIH_TLrT6SVfp4abFSd1TGL9mRcsne7hYTyj-2s1VHE7yQad1JbCBkkfwXdHGZUrlef7Skzc03O42Aqt-8Pbyp5XqOQVbZdq-2Ysh7PS0g69F7-ABoz3vw
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (267 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Length: 1148
+Content-Type: image/png
+Date: Sun, 11 Oct 2026 15:48:39 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+Cache-Control: no-cache
+ETag: &quot;4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=&quot;
+Last-Modified: Sun, 27 Sep 2026 15:25:41 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1148 bytes)</summary>
+				
+				<pre><code>PNG
+
+   IHDR           szzô  CIDATx^ÅVMlLQ&gt;^ªjFL#AÄB£+t©	V4ETlJ-DChX±kY@$¤A¢+¦,©HEF ¢£íðïæ~ÉÍËdÌ4ð%&#39;y÷çÝsÎw~îâû¾üOäa`` T&#39;UzTâ	Ì{IYT%¦²Å«,RY®rkÁV¾^&#39;©1*G0hÚó^6í.ÆgJ¥Ôû«´PùÝD?`PKÇ&gt;Êík½ò¨} Ã°J4Gü eZI÷þÓ?H÷ëo2¯¢P,íìü* íZÌ*/l@)hÛb=H¸¥ÞÁËî7ßeå±Pycík!À Ïh ÄÒ¦WÉÎ/æ ~ý&amp;\84ÝÇ5Kh=Qî1Ð&quot;
+zm³u-½~þ´·õK&gt;5wù·Ñ²Yä±
+$3,&quot;[]Å#Gy1Ìõ^
+ûÎN1çåq*ß«ñzùä« å
+¥rõh&amp;ÁXzÝû,ùÎxV9²»ÎU·(õ&#39;Êø¡ræÐ$ÅÍ%ØýoÅ¶Ej¼SPÎa¥QÔz!%AÀkÌ!4ìo¨êÊ9G,Ú&lt;ë}ä½&amp;ë´º~ÃS£$&#39;`­xrÈüÜpÞ÷lË­«½×¯3¶34½3&quot;ÇoÊÔé&amp;`ûñÙû°A	Ý­³R#P¿T¾;s¸QB¹«ïRÚ©LEüÿú)½[ðw^§©¬Ú8Vúõ»aMçx,\Rd¨g­·«8&lt;Àw[¨qJj]dóôÞ80Ôým Lkc8Ää mBcKB07Ð×uNOÑ#üG6¨ÕRE¸Tyók!»ç^¨k¨sÔ&lt;hÄaÈj­^µ½$rRÏª#$N&#39;TüÆÍÏý³úÕO}oObl¤.Úé&#39;}Â¼î·}f½j~ßzñ-çü3ñWØOq×!=*e¸{\¢¸zà.oÖØÙ4YÃ2\vTu1ÃY`è4æ,9»R_&#39;-Ìv(à»¨?8	¹÷xVå4ï?71z¨&lt;Ïfã)ôt*b{E³ÁëgUº@@·&lt;zeªÌÓ\Áfe1Æ¼5à«Ø.Â0CÁÄ¬Þf·^ÆjàIÄÿ,V ëI¬]ì±-9e @ó1uË^¿áVIÝ£·!ö b ±¯¡òL¾¢¶Eámsì/¤®rMØõ:©eìs1FY#ævPÚÑþYÌ!ØJ5ËË+
+pÄ¸eVò1 ø2D$7$a8m¬k  &#39;TçeÀÿÄ/FÖ·ø    IEND®B`</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que la aplicación/servidor web establece el encabezado Content-Type adecuadamente, y que establece el encabezado X-Content-Type-Options a &#39;nosniff&#39; para todas las páginas web.</p>
+
+<p>Si es posible, asegúrese de que el usuario final utiliza un navegador web moderno y compatible con los estándares que no realiza MIME-sniffing en absoluto, o que puede ser dirigido por la aplicación web/servidor web para que no realice MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Media</span> <span>(3)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:5298</span> <span>(3)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-5">Aplicación Web Moderna</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:5298/</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>Se han encontrado enlaces que no tienen atributos href tradicionales, lo que indica que se trata de una aplicación web moderna.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (470 bytes)</summary>
+				
+				<pre><code>GET http://localhost:5298/ HTTP/1.1
+host: localhost:5298
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:5298/cliente
+Cookie: .AspNetCore.Antiforgery.dvXhXtVr5tw=CfDJ8Hh54UtensNOhTNkUBHqYAnZw2i2Ost7MiIH_TLrT6SVfp4abFSd1TGL9mRcsne7hYTyj-2s1VHE7yQad1JbCBkkfwXdHGZUrlef7Skzc03O42Aqt-8Pbyp5XqOQVbZdq-2Ysh7PS0g69F7-ABoz3vw
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (265 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sun, 11 Oct 2026 15:48:39 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Security-Policy: frame-ancestors &#39;self&#39;
+blazor-enhanced-nav: allow
+content-length: 5745
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (5745 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;base href=&quot;/&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;app.khy4lop6wu.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;WebEmpresa.yp5qmf0qrn.styles.css&quot; /&gt;
+    &lt;script type=&quot;importmap&quot;&gt;{
+  &quot;imports&quot;: {
+    &quot;./Components/Layout/ReconnectModal.razor.js&quot;: &quot;./Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot;,
+    &quot;./_framework/blazor.server.js&quot;: &quot;./_framework/blazor.server.wfr2hj6447.js&quot;,
+    &quot;./_framework/blazor.web.js&quot;: &quot;./_framework/blazor.web.wyu7y4jcvb.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js&quot;
+  }
+}&lt;/script&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;title&gt;Home&lt;/title&gt;&lt;/head&gt;
+
+&lt;body&gt;&lt;div class=&quot;page&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;sidebar&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;top-row ps-3 navbar navbar-dark&quot; b-blsbophmnv&gt;&lt;div class=&quot;container-fluid&quot; b-blsbophmnv&gt;&lt;a class=&quot;navbar-brand&quot; href b-blsbophmnv&gt;WebEmpresa&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;input type=&quot;checkbox&quot; title=&quot;Navigation menu&quot; class=&quot;navbar-toggler&quot; b-blsbophmnv&gt;
+
+&lt;div class=&quot;nav-scrollable&quot; onclick=&quot;document.querySelector(&amp;#x27;.navbar-toggler&amp;#x27;).click()&quot; b-blsbophmnv&gt;&lt;nav class=&quot;nav flex-column&quot; b-blsbophmnv&gt;&lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;&quot; class=&quot;nav-link active&quot; aria-current=&quot;page&quot;&gt;&lt;span class=&quot;bi bi-house-door-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Home
+            &lt;/a&gt;&lt;/div&gt;
+
+
+         &lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;cliente&quot; class=&quot;nav-link&quot;&gt;&lt;span class=&quot;bi bi-plus-square-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Cliente
+            &lt;/a&gt;&lt;/div&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;
+
+    &lt;main b-gv4gl9ovon&gt;&lt;div class=&quot;top-row px-4&quot; b-gv4gl9ovon&gt;&lt;a href=&quot;https://learn.microsoft.com/aspnet/core/&quot; target=&quot;_blank&quot; b-gv4gl9ovon&gt;About&lt;/a&gt;&lt;/div&gt;
+
+        &lt;article class=&quot;content px-4&quot; b-gv4gl9ovon&gt;
+
+&lt;h1&gt;Hola, Mundo!&lt;/h1&gt;
+
+Welcome to your new app.
+&lt;/article&gt;&lt;/main&gt;&lt;/div&gt;
+
+&lt;div id=&quot;blazor-error-ui&quot; data-nosnippet b-gv4gl9ovon&gt;
+    An unhandled error has occurred.
+    &lt;a href=&quot;.&quot; class=&quot;reload&quot; b-gv4gl9ovon&gt;Reload&lt;/a&gt;
+    &lt;span class=&quot;dismiss&quot; b-gv4gl9ovon&gt;🗙&lt;/span&gt;&lt;/div&gt;
+        &lt;blazor-focus-on-navigate selector=&quot;h1&quot;&gt;&lt;/blazor-focus-on-navigate&gt;
+    &lt;script type=&quot;module&quot; src=&quot;Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot; b-9z5pueqh32&gt;&lt;/script&gt;
+
+&lt;dialog id=&quot;components-reconnect-modal&quot; data-nosnippet b-9z5pueqh32&gt;&lt;div class=&quot;components-reconnect-container&quot; b-9z5pueqh32&gt;&lt;div class=&quot;components-rejoining-animation&quot; aria-hidden=&quot;true&quot; b-9z5pueqh32&gt;&lt;div b-9z5pueqh32&gt;&lt;/div&gt;
+            &lt;div b-9z5pueqh32&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;p class=&quot;components-reconnect-first-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoining the server...
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-repeated-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoin failed... trying again in &lt;span id=&quot;components-seconds-to-next-attempt&quot; b-9z5pueqh32&gt;&lt;/span&gt; seconds.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to rejoin.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-reconnect-button&quot; class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Retry
+        &lt;/button&gt;
+        &lt;p class=&quot;components-pause-visible&quot; b-9z5pueqh32&gt;
+            The session has been paused by the server.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to resume the session.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-resume-button&quot; class=&quot;components-pause-visible components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Resume
+        &lt;/button&gt;&lt;/div&gt;&lt;/dialog&gt;
+    &lt;script src=&quot;_framework/blazor.web.wyu7y4jcvb.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;&lt;!--Blazor-Server-Component-State:CfDJ8Hh54UtensNOhTNkUBHqYAm8a78RKdB06On3cmrUTPkb6sYWoJu2TK+9eGFW7kkwJS9JmYz3LdgcBojurq/jpoaMIg/BqEjY9AkLHrkycDH9VPh2pV9EDnAVEP0+TGMjXmfjOs9db/H6GobP2ehEn5jC7G22BqSnsHerq6nAj3ZDhjHFRA8aaQEQml/RSZEptt4LTMjtgZaUYps0XsFcQpWHANWoxVS7xslP1nz07riD7aWx+tfF5z9abanTjw3M0qnoH1meszHtmCniU3bDCbIhZkZkrEtYG+um8KDXdn4XHEdvfe2v8rIbj8AgoSxODVuG3EZo6wtz5CgdVRoKgU+IUCj1MGFTq9MCAuBexkws3DzSK2dJ8amUj2MOCB0xCHs1/R/wWmjRGMlQgWYt1Z88C5AwRH6+S+xaXBb9U/7uyj1sHhFId/7pWaWkCdGRgbCkItaekZnBYlK8YoayXf4KduJrsY6ezCV1LoP9rUxSJr4vri7U1VRe6lweACSl0zITUqczYKU9GJAkNcS1iy3f5m59ULF1zyjr8hOZtlAdty7w2vLQku7mn0x1XzOiaIUKhv8NU8AkrZ4T80kNJFvggHc8vHVlhhjRsGSmWMvyUgAo9V2Jw0GkYQU1zX59iNBJW+FbjTR7AxSjuqLebNNc6Ln3sEe8eplF9yrpmzfq+XPNrn20QfZ4UdDws7tKm+vcQMLBXeeVaJjCdux2DmqIBi/9K4gyyNHfkDkEWv9FwH4dGXbo2+/yXR9AXKAGj9BpB+24Gc5eJT4LoMCFI2/7YUp/T7IkMwjPZQbzXLgVkhRHvpj7E97CblL0wUitYedaD0s4LDuaJGLNP7687YMcZ/mxoxp0bL/hj7MeeJQEV3nVc5LXcd5iI14vItYTD0bjZNjGi9RGNvjgitwx9uHzQGjaukg1JhD3Ledo8SC7+KoceTSG4UNmQiX4j5YCOToo4ZwshtRl87Da2zx1Y43E4Eg1wCHzqBrXqwObf+jrxE90LiX6rQ4jcNSapSc2r5S7q1pIJ8XTms+osHHOOiUkRSjpLX2aVkOInwxOZmzfa2KlmBcEx9W6HM4r13OF5ddOxPVmqdlHCyeFAWms/UWKwz+JS5/n/cEFCj6ACEYh5HJANwcoD7sIrIt7UrU7mw==--&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;a class=&quot;navbar-brand&quot; href b-blsbophmnv&gt;WebEmpresa&lt;/a&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Se trata de una alerta informativa, por lo que no es necesario realizar ningún cambio.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-6">Divulgación de información - Comentarios sospechosos</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:5298/Components/Layout/ReconnectModal.abdmv1u4y3.razor.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/2021/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage">WSTG-v42-INFO-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/">OWASP_2025_A01</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/615.html">CWE-615</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response appears to contain suspicious comments which may help an attacker.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The following pattern was used: \bUSER\b and was detected in likely comment: &quot;// We&#39;ll reload the page so the user can continue using the app as quickly as possible.&quot;, see evidence field for the suspicious comment/snippet.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (522 bytes)</summary>
+				
+				<pre><code>GET http://localhost:5298/Components/Layout/ReconnectModal.abdmv1u4y3.razor.js HTTP/1.1
+host: localhost:5298
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:5298/cliente
+Cookie: .AspNetCore.Antiforgery.dvXhXtVr5tw=CfDJ8Hh54UtensNOhTNkUBHqYAnZw2i2Ost7MiIH_TLrT6SVfp4abFSd1TGL9mRcsne7hYTyj-2s1VHE7yQad1JbCBkkfwXdHGZUrlef7Skzc03O42Aqt-8Pbyp5XqOQVbZdq-2Ysh7PS0g69F7-ABoz3vw
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (296 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Length: 2448
+Content-Type: text/javascript
+Date: Sun, 11 Oct 2026 15:48:39 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+Cache-Control: no-cache
+ETag: &quot;5u+v90fOttEFzE2qHMGMOXmy93Ik/BaGqLrrnu6mdGU=&quot;
+Last-Modified: Sun, 27 Sep 2026 15:25:41 GMT
+Vary: Accept-Encoding
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2448 bytes)</summary>
+				
+				<pre><code>// Set up event handlers
+const reconnectModal = document.getElementById(&quot;components-reconnect-modal&quot;);
+reconnectModal.addEventListener(&quot;components-reconnect-state-changed&quot;, handleReconnectStateChanged);
+
+const retryButton = document.getElementById(&quot;components-reconnect-button&quot;);
+retryButton.addEventListener(&quot;click&quot;, retry);
+
+const resumeButton = document.getElementById(&quot;components-resume-button&quot;);
+resumeButton.addEventListener(&quot;click&quot;, resume);
+
+function handleReconnectStateChanged(event) {
+    if (event.detail.state === &quot;show&quot;) {
+        reconnectModal.showModal();
+    } else if (event.detail.state === &quot;hide&quot;) {
+        reconnectModal.close();
+    } else if (event.detail.state === &quot;failed&quot;) {
+        document.addEventListener(&quot;visibilitychange&quot;, retryWhenDocumentBecomesVisible);
+    } else if (event.detail.state === &quot;rejected&quot;) {
+        location.reload();
+    }
+}
+
+async function retry() {
+    document.removeEventListener(&quot;visibilitychange&quot;, retryWhenDocumentBecomesVisible);
+
+    try {
+        // Reconnect will asynchronously return:
+        // - true to mean success
+        // - false to mean we reached the server, but it rejected the connection (e.g., unknown circuit ID)
+        // - exception to mean we didn&#39;t reach the server (this can be sync or async)
+        const successful = await Blazor.reconnect();
+        if (!successful) {
+            // We have been able to reach the server, but the circuit is no longer available.
+            // We&#39;ll reload the page so the user can continue using the app as quickly as possible.
+            const resumeSuccessful = await Blazor.resumeCircuit();
+            if (!resumeSuccessful) {
+                location.reload();
+            } else {
+                reconnectModal.close();
+            }
+        }
+    } catch (err) {
+        // We got an exception, server is currently unavailable
+        document.addEventListener(&quot;visibilitychange&quot;, retryWhenDocumentBecomesVisible);
+    }
+}
+
+async function resume() {
+    try {
+        const successful = await Blazor.resumeCircuit();
+        if (!successful) {
+            location.reload();
+        }
+    } catch {
+        reconnectModal.classList.replace(&quot;components-reconnect-paused&quot;, &quot;components-reconnect-resume-failed&quot;);
+    }
+}
+
+async function retryWhenDocumentBecomesVisible() {
+    if (document.visibilityState === &quot;visible&quot;) {
+        await retry();
+    }
+}
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>oad the page so the user can continue using </code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Eliminar todos los comentarios que muestren información que pueda ayudar a un atacante y solucionar el problema al que se refieren.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-7">Respuesta de Gestión de Sesión Identificada</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:5298/cliente</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Se ha identificado que la respuesta dada contiene un token de gestión de sesión. El campo &#39;Other Info&#39; contiene un conjunto de tokens de cabecera que pueden utilizarse en el método Header Based Session Management (gestión de sesión basado en cabecera). Si la petición se encuentra en un contexto que tiene un método Session Management establecido en &quot;Auto-Detect&quot;, esta regla cambiará la gestión de sesión para utilizar los tokens identificados.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>cookie:.AspNetCore.Antiforgery.dvXhXtVr5tw</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (236 bytes)</summary>
+				
+				<pre><code>GET http://localhost:5298/cliente HTTP/1.1
+host: localhost:5298
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (545 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sun, 11 Oct 2026 15:48:39 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, max-age=0
+Pragma: no-cache
+Set-Cookie: .AspNetCore.Antiforgery.dvXhXtVr5tw=CfDJ8Hh54UtensNOhTNkUBHqYAnZw2i2Ost7MiIH_TLrT6SVfp4abFSd1TGL9mRcsne7hYTyj-2s1VHE7yQad1JbCBkkfwXdHGZUrlef7Skzc03O42Aqt-8Pbyp5XqOQVbZdq-2Ysh7PS0g69F7-ABoz3vw; path=/; samesite=strict; httponly
+Content-Security-Policy: frame-ancestors &#39;self&#39;
+blazor-enhanced-nav: allow
+X-Frame-Options: SAMEORIGIN
+content-length: 8650
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (8650 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;base href=&quot;/&quot;&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;app.khy4lop6wu.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;WebEmpresa.yp5qmf0qrn.styles.css&quot; /&gt;
+    &lt;script type=&quot;importmap&quot;&gt;{
+  &quot;imports&quot;: {
+    &quot;./Components/Layout/ReconnectModal.razor.js&quot;: &quot;./Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot;,
+    &quot;./_framework/blazor.server.js&quot;: &quot;./_framework/blazor.server.wfr2hj6447.js&quot;,
+    &quot;./_framework/blazor.web.js&quot;: &quot;./_framework/blazor.web.wyu7y4jcvb.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.esm.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.min.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js&quot;,
+    &quot;./lib/bootstrap/dist/js/bootstrap.js&quot;: &quot;./lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js&quot;
+  }
+}&lt;/script&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;title&gt;Clientes&lt;/title&gt;&lt;/head&gt;
+
+&lt;body&gt;&lt;div class=&quot;page&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;sidebar&quot; b-gv4gl9ovon&gt;&lt;div class=&quot;top-row ps-3 navbar navbar-dark&quot; b-blsbophmnv&gt;&lt;div class=&quot;container-fluid&quot; b-blsbophmnv&gt;&lt;a class=&quot;navbar-brand&quot; href b-blsbophmnv&gt;WebEmpresa&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;input type=&quot;checkbox&quot; title=&quot;Navigation menu&quot; class=&quot;navbar-toggler&quot; b-blsbophmnv&gt;
+
+&lt;div class=&quot;nav-scrollable&quot; onclick=&quot;document.querySelector(&amp;#x27;.navbar-toggler&amp;#x27;).click()&quot; b-blsbophmnv&gt;&lt;nav class=&quot;nav flex-column&quot; b-blsbophmnv&gt;&lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;&quot; class=&quot;nav-link&quot;&gt;&lt;span class=&quot;bi bi-house-door-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Home
+            &lt;/a&gt;&lt;/div&gt;
+
+
+         &lt;div class=&quot;nav-item px-3&quot; b-blsbophmnv&gt;&lt;a href=&quot;cliente&quot; class=&quot;nav-link active&quot; aria-current=&quot;page&quot;&gt;&lt;span class=&quot;bi bi-plus-square-fill-nav-menu&quot; aria-hidden=&quot;true&quot; b-blsbophmnv&gt;&lt;/span&gt; Cliente
+            &lt;/a&gt;&lt;/div&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;
+
+    &lt;main b-gv4gl9ovon&gt;&lt;div class=&quot;top-row px-4&quot; b-gv4gl9ovon&gt;&lt;a href=&quot;https://learn.microsoft.com/aspnet/core/&quot; target=&quot;_blank&quot; b-gv4gl9ovon&gt;About&lt;/a&gt;&lt;/div&gt;
+
+        &lt;article class=&quot;content px-4&quot; b-gv4gl9ovon&gt;&lt;!--Blazor:{&quot;type&quot;:&quot;server&quot;,&quot;prerenderId&quot;:&quot;9d265409fdd64b24864db6d0cdae9bcf&quot;,&quot;key&quot;:{&quot;locationHash&quot;:&quot;8F29CF6DDCA33A942C78C430396DAF25F1F5BC17A542FCF836BCF2137C270A22:0&quot;,&quot;formattedComponentKey&quot;:&quot;&quot;},&quot;sequence&quot;:0,&quot;descriptor&quot;:&quot;CfDJ8Hh54UtensNOhTNkUBHqYAm3FsZ8BvpE6IfRwZcFoZtTvoa7BVejWOg9GvdMH3XBFNYMFyQnFV9CF8Qga4\u002BXJe8eeiJ5Wu402kd00CK8FSe0\u002BhV385YpnHf0FWHKGZ6ZBU4cZkzTkVELXqNJoBN7Nc54S3A3q5YIqfDTpTYVzo\u002B\u002BvRY3kHRPskHdHm/nyU99GsojfpOlJs2hyJ\u002BL7ngPjt05ot3yWx01DoHNq/f2ItsW/foGpkp83cFGW\u002BDtEUpkqAjZ/TUgqj6RxnAM9dUIPrlUPV7BqxZnlyMJYeVzxbsh0ERDOCKQYizv7r7vWw1hgqc90FZh19qvciteX1cFq/EZFJx46Xmh7t7RogMWDYWpl/yGscjbRBY\u002BlLXZefSpR\u002Bew4pgEqLJJblKfuSTzNFl77FhLGWIUeMBTGSwFcnoOhH1g51uNLMV7sdj2Lg4AU/aJ0mcM97WBXN8AO/7XtQUZ5aOOHngUGtZNAEd1LkoYzKGbFgDpxFkUsbO/YSAwpMiKdedmat/SxX\u002BKNRyfm3w=&quot;}--&gt;
+
+&lt;div class=&quot;container mt-4&quot;&gt;&lt;div class=&quot;d-flex justify-content-between align-items-center mb-4&quot;&gt;&lt;h2&gt;Clientes&lt;/h2&gt;
+
+        &lt;button class=&quot;btn btn-primary&quot;&gt;
+            Nuevo Cliente
+        &lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table table-striped table-bordered table-hover align-middle&quot;&gt;&lt;thead class=&quot;table-dark&quot;&gt;&lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;
+                        &lt;th&gt;CUI&lt;/th&gt;
+                        &lt;th&gt;Nombres&lt;/th&gt;
+                        &lt;th&gt;Apellidos&lt;/th&gt;
+                        &lt;th&gt;Dirección&lt;/th&gt;
+                        &lt;th&gt;Teléfono&lt;/th&gt;
+                        &lt;th&gt;Fecha nacimiento&lt;/th&gt;
+                        &lt;th class=&quot;text-center&quot;&gt;Acciones&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+
+                &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;
+
+                            &lt;td&gt;43434343&lt;/td&gt;
+
+                            &lt;td&gt;prueba&lt;/td&gt;
+
+                            &lt;td&gt;uscap&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;45454545&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;
+
+                            &lt;td&gt;45455&lt;/td&gt;
+
+                            &lt;td&gt;Prueba&lt;/td&gt;
+
+                            &lt;td&gt;dos&lt;/td&gt;
+
+                            &lt;td&gt;guatemala&lt;/td&gt;
+
+                            &lt;td&gt;676767&lt;/td&gt;
+
+                            &lt;td&gt;23/03/1999&lt;/td&gt;
+
+                            &lt;td class=&quot;text-center&quot;&gt;&lt;button class=&quot;btn btn-warning btn-sm me-2&quot;&gt;
+                                    Editar
+                                &lt;/button&gt;
+
+                                &lt;button class=&quot;btn btn-danger btn-sm&quot;&gt;
+                                    Eliminar
+                                &lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--Blazor:{&quot;prerenderId&quot;:&quot;9d265409fdd64b24864db6d0cdae9bcf&quot;}--&gt;&lt;/article&gt;&lt;/main&gt;&lt;/div&gt;
+
+&lt;div id=&quot;blazor-error-ui&quot; data-nosnippet b-gv4gl9ovon&gt;
+    An unhandled error has occurred.
+    &lt;a href=&quot;.&quot; class=&quot;reload&quot; b-gv4gl9ovon&gt;Reload&lt;/a&gt;
+    &lt;span class=&quot;dismiss&quot; b-gv4gl9ovon&gt;🗙&lt;/span&gt;&lt;/div&gt;
+        &lt;blazor-focus-on-navigate selector=&quot;h1&quot;&gt;&lt;/blazor-focus-on-navigate&gt;
+    &lt;script type=&quot;module&quot; src=&quot;Components/Layout/ReconnectModal.abdmv1u4y3.razor.js&quot; b-9z5pueqh32&gt;&lt;/script&gt;
+
+&lt;dialog id=&quot;components-reconnect-modal&quot; data-nosnippet b-9z5pueqh32&gt;&lt;div class=&quot;components-reconnect-container&quot; b-9z5pueqh32&gt;&lt;div class=&quot;components-rejoining-animation&quot; aria-hidden=&quot;true&quot; b-9z5pueqh32&gt;&lt;div b-9z5pueqh32&gt;&lt;/div&gt;
+            &lt;div b-9z5pueqh32&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;p class=&quot;components-reconnect-first-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoining the server...
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-repeated-attempt-visible&quot; b-9z5pueqh32&gt;
+            Rejoin failed... trying again in &lt;span id=&quot;components-seconds-to-next-attempt&quot; b-9z5pueqh32&gt;&lt;/span&gt; seconds.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to rejoin.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-reconnect-button&quot; class=&quot;components-reconnect-failed-visible&quot; b-9z5pueqh32&gt;
+            Retry
+        &lt;/button&gt;
+        &lt;p class=&quot;components-pause-visible&quot; b-9z5pueqh32&gt;
+            The session has been paused by the server.
+        &lt;/p&gt;
+        &lt;p class=&quot;components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Failed to resume the session.&lt;br b-9z5pueqh32&gt;Please retry or reload the page.
+        &lt;/p&gt;
+        &lt;button id=&quot;components-resume-button&quot; class=&quot;components-pause-visible components-resume-failed-visible&quot; b-9z5pueqh32&gt;
+            Resume
+        &lt;/button&gt;&lt;/div&gt;&lt;/dialog&gt;
+    &lt;script src=&quot;_framework/blazor.web.wyu7y4jcvb.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;&lt;!--Blazor-Server-Component-State:CfDJ8Hh54UtensNOhTNkUBHqYAmZGS3zWghS4BOrFMDsCLA5erPoR8FU90JHIdN9CLgXZ8w9tTvxJBjlejzvbhb1R+90B0gImD1ffSwQJb5lT/amkZ6IybgATRVojsEuACHVMQ4IfwSKqsSjHme/BdnY5KtIbmyOkGSzoLOKiam1s/FB2VmpqS0o0ILrOTSbNapn51M0U5Djv9JfqTBrhV2M1jxwWeD5abAXf2YcUvSJ/R3hnU3orDkYU7nMYRK1K4BvLq3HJYxKL81LnIVGUC3nBTFt+hwbZ4tuah5AHbnnkkulBElBUbgYPV5RtDtd7T5Ef7l70xWQZexkiQNW2dCccytww0dE/HVTcQM/eGH2dNyACu1h8aqOJEO89mRv0TpXeY2vW9aYxni3Gm3GCL3gTaQCYjleosTTOCs2zLgCjswZF62erAep/Ij0MixEJ1GuwUbW6uIl2b3SlgggsqXzWimlnzGW+F8PxB1lOfZOM5fC+LaOPT5Ip/T9suXZZyRQL8pcjYsXFz4GWsEJHZ0Vo7gB7rJcVs+c9wthL+/uZZ0bTBjv2glAyJ9mFpsRerRYyxOBCQ7tdh8AzgZF5UHfL04s4crFDgZhe2GXz8KMS+NY9yQ9HA4XVDQeK6GxMvgfhy1vQ6w8/ILE6dzshrn2PeU3wZePFFNK2Jv0LWpyQ1hr1zpuDngUOGEXXZ9wAW9pbIa3pjas7MgHrk+KEmHL07ULGw1PApUV5cbkxF5s0EhXq9jhAwJwrWnzx9+rI4k8O8q9c7Qo6t1Mh8UBfvSL1a4JQ5iRehg6C7xgRNsOrHpZ9EySLYKr3M8nQ3e1BbJeiM8alZj/jRn2EQxyNUFurhEBDQxlfzEuonH7yyyQ/3PtINoVGhoXbJQJHL6tQuFhxut2bCthrfcCBNxq9x842ZfIbwJB5ro2gKODA9E1xTmdRb5Kop2ixoWAAQxMKrC0BLzz2f8YEpQQ9tUmdHI5MhYOcwY+Q9CGUoMuJRTbdDGc5r/bUd98M6qR5F5aIHLf+G4rJpltDNNLdGEjCm04XkSLorAl79d74HYJq5Au0DBjH6x+GqIyM+i9equuvNyEN21s5ksYW9SkcBioBUvC19vKDn6w+h+Y0TPb6grIOIFQz2SZJUx+lVWswc3P/vYB4w==--&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>.AspNetCore.Antiforgery.dvXhXtVr5tw</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>.AspNetCore.Antiforgery.dvXhXtVr5tw</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Se trata de una alerta informativa y no de una vulnerabilidad, por lo que no hay nada que corregir.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert Types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>CSP: Directiva Wildcard</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10055/">CSP</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://caniuse.com/#search=content+security+policy">https://caniuse.com/#search=content+security+policy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+										<li><a
+											href="https://github.com/HtmlUnit/htmlunit-csp">https://github.com/HtmlUnit/htmlunit-csp</a></li>
+										<li><a
+											href="https://web.dev/articles/csp#resource-options">https://web.dev/articles/csp#resource-options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>CSP: Failure to Define Directive with No Fallback</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10055/">CSP</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://caniuse.com/#search=content+security+policy">https://caniuse.com/#search=content+security+policy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+										<li><a
+											href="https://github.com/HtmlUnit/htmlunit-csp">https://github.com/HtmlUnit/htmlunit-csp</a></li>
+										<li><a
+											href="https://web.dev/articles/csp#resource-options">https://web.dev/articles/csp#resource-options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>CSP: script-src unsafe-inline</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10055/">CSP</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://caniuse.com/#search=content+security+policy">https://caniuse.com/#search=content+security+policy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+										<li><a
+											href="https://github.com/HtmlUnit/htmlunit-csp">https://github.com/HtmlUnit/htmlunit-csp</a></li>
+										<li><a
+											href="https://web.dev/articles/csp#resource-options">https://web.dev/articles/csp#resource-options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>CSP: style-src unsafe-inline</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10055/">CSP</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://caniuse.com/#search=content+security+policy">https://caniuse.com/#search=content+security+policy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+										<li><a
+											href="https://github.com/HtmlUnit/htmlunit-csp">https://github.com/HtmlUnit/htmlunit-csp</a></li>
+										<li><a
+											href="https://web.dev/articles/csp#resource-options">https://web.dev/articles/csp#resource-options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-4">
+						<h4>Falta encabezado X-Content-Type-Options</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">Falta encabezado X-Content-Type-Options</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)">https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-5">
+						<h4>Aplicación Web Moderna</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10109/">Aplicación Web Moderna</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-6">
+						<h4>Divulgación de información - Comentarios sospechosos</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10027/">Divulgación de información - Comentarios sospechosos</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/615.html">615</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-7">
+						<h4>Respuesta de Gestión de Sesión Identificada</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10112/">Respuesta de Gestión de Sesión Identificada</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/">https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+
